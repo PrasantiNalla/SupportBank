@@ -29,22 +29,22 @@ public class CsvReader
                 // Console.Write(tran.TDate);
                 // Console.Write(tran.From.Name);
                 // Console.Write(tran.To.Name);
-                Console.Write(tran.Amount);
+           //     Console.Write(tran.Amount);
             }
 
             // add name to accounts list, but if name already exists, dont' add
         }
         foreach (Transaction name in bank.Transactions)
         {
-            if (bank.Accounts.Any(account => account.Name != name.From.Name))
+            if (!bank.Accounts.Any(account => account.Name == name.From.Name))
             {
-                bank.Accounts.Add(name.From);
+                bank.Accounts.Add(new Account(name.From.Name));
             }
-            if (bank.Accounts.Any(account => account.Name != name.To.Name))
+            if (!bank.Accounts.Any(account => account.Name == name.To.Name))
             {
-                bank.Accounts.Add(name.To);
+                bank.Accounts.Add(new Account(name.To.Name));
             }
-      
+
 
         }
 
