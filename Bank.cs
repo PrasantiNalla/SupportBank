@@ -5,36 +5,6 @@ class Bank
     public List<Transaction> Transactions = new List<Transaction>();
     public List<Account> Accounts = new List<Account>();
 
-    // public List<Account> Accounts
-    // {
-    //     get
-    //     {
-    //         foreach (Transaction name in Transactions)
-    //         {
-    //             if (accounts.Any(account => account.Name != name.From.Name))
-    //             {
-    //                 accounts.Add(name.From);
-    //             }
-    //             if (accounts.Any(account => account.Name != name.To.Name))
-    //             {
-    //                 accounts.Add(name.To);
-    //             }
-
-    //         }
-
-    //         return accounts;
-    //     }
-    //     set
-    //     {
-    //         accounts = Accounts;
-    //     }
-
-    // }
-
-    // public void AccountDetails()
-    // {
-
-    // }
     // Constructor
     public Bank()
     {
@@ -42,8 +12,25 @@ class Bank
         Accounts = new List<Account>();
     }
 
-    // public AllTransactions()
-    // {
-    //    foreach()
-    // }
+    public void AllTransactions(List<Transaction> Transactions, List<Account> Accounts)
+    {
+        decimal total = 0;
+        Console.WriteLine("The total owed for each individual is:");
+        foreach (Account person in Accounts)
+        {
+            foreach (Transaction trans in Transactions)
+            {
+                if (person.Name == trans.To.Name)
+                {
+                    total += trans.Amount;
+                }
+                if (person.Name == trans.From.Name)
+                {
+                    total -= trans.Amount;
+                }
+            }
+
+            Console.WriteLine($"{person.Name} : {total}");
+        }
+    }
 }

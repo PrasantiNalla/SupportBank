@@ -13,6 +13,7 @@ public class CsvReader
         // Read all data in CSV file and put into string array. 
         string[] lines = System.IO.File.ReadAllLines(path);
         // loop through each line and split the line by comma to access all data entries
+        // populating data into transactions
         for (int i = 1; i < lines.Length; i++)
         {
             string[] columns = lines[i].Split(',');
@@ -23,17 +24,10 @@ public class CsvReader
             decimal amountEntry = Decimal.Parse(columns[4]);
 
             bank.Transactions.Add(new Transaction(dateEntry, from, to, amountEntry));
-            foreach (Transaction tran in bank.Transactions)
-            {
 
-                // Console.Write(tran.TDate);
-                // Console.Write(tran.From.Name);
-                // Console.Write(tran.To.Name);
-           //     Console.Write(tran.Amount);
-            }
 
-            // add name to accounts list, but if name already exists, dont' add
         }
+        // add name to accounts list, but if name already exists, dont' add
         foreach (Transaction name in bank.Transactions)
         {
             if (!bank.Accounts.Any(account => account.Name == name.From.Name))
@@ -47,13 +41,10 @@ public class CsvReader
 
 
         }
+        // call method to caluclate total owe and owed
+        bank.AllTransactions(bank.Transactions, bank.Accounts);
 
-        foreach (Account acc in bank.Accounts)
-
-        {
-            Console.WriteLine(acc.Name);
-        }
-
+      
 
 
 
