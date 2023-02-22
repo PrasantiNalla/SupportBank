@@ -1,5 +1,4 @@
 namespace SupportBank;
-
 class Transaction
 {
     public DateOnly TDate { get; set; }

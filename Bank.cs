@@ -2,16 +2,14 @@ namespace SupportBank;
 
 class Bank
 {
-    public List<Transaction> Transactions = new List<Transaction>();
-    public List<Account> Accounts = new List<Account>();
-
+    public List<Transaction> Transactions;
+    public List<Account> Accounts;
     // Constructor
     public Bank()
     {
         Transactions = new List<Transaction>();
         Accounts = new List<Account>();
     }
-
     public void AllTransactions(List<Transaction> Transactions, List<Account> Accounts)
     {
         decimal total = 0;
@@ -29,7 +27,6 @@ class Bank
                     total -= trans.Amount;
                 }
             }
-
             Console.WriteLine($"{person.Name} : {total}");
         }
     }
