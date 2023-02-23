@@ -1,17 +1,23 @@
-using NLog;
 namespace SupportBank;
 
 class Bank
 {
-    private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
+    // Logging setup for CsvReader class.
+    private static readonly NLog.ILogger Logger = NLog.LogManager.GetCurrentClassLogger();
+
+    // Getters
     public List<Transaction> Transactions;
     public List<Account> Accounts;
-    // Constructor
+
+    // Constructor (setter)
     public Bank()
     {
+        Logger.Info("Successfully started Bank");
         Transactions = new List<Transaction>();
         Accounts = new List<Account>();
     }
+
+    // Method to calculate total owe and owed for all accounts.
     public void AllTransactions(List<Transaction> Transactions, List<Account> Accounts)
     {
         decimal total = 0;
@@ -33,6 +39,7 @@ class Bank
         }
     }
 
+    // Method to list all transactions of a particular account (name).
     public void AccountDetails(List<Transaction> Transactions, List<Account> Accounts)
     {
         Console.WriteLine($"Please provide an account name from the following list:");

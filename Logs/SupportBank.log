@@ -1,0 +1,53 @@
+2023-02-23 14:21:52.8895 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 14:28:49.1842 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 14:33:35.6838 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 14:33:35.7440 Info - SupportBank.CsvReader: Parsing line 1.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 2.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 3.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 4.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 5.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 6.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 7.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 8.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 9.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 10.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 11.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 12.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 13.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 14.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 15.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 16.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 17.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 18.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 19.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 20.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 21.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 22.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 23.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 24.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 25.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 26.
+2023-02-23 14:33:35.7886 Info - SupportBank.CsvReader: Parsing line 27.
+2023-02-23 14:33:35.7886 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 14:41:41.7707 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 14:41:41.8392 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 14:41:41.8392 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful at line 27.
+2023-02-23 15:24:56.7061 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 15:24:56.7566 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 15:24:56.7566 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful at line 27.
+2023-02-23 15:30:45.4863 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 15:30:45.5396 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 15:30:45.5396 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful at line 27.
+2023-02-23 15:30:45.5396 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 15:31:07.0733 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 15:31:07.1217 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 15:31:07.1217 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful at line 27.
+2023-02-23 15:31:07.1217 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful.
+2023-02-23 15:36:17.9877 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 15:36:18.0411 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful (amount) at line 27.
+2023-02-23 15:36:18.0411 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful at line 51.
+2023-02-23 15:38:23.3187 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 15:38:23.3685 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful at line 27 due to a faulty amount.
+2023-02-23 15:38:23.3685 Error - SupportBank.CsvReader: Filling of Transactions list unsuccessful (amount) at line 51 due to a faulty date.
+2023-02-23 15:43:59.3072 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-23 15:43:59.3361 Info - SupportBank.Bank: Successfully started Bank

@@ -1,7 +1,10 @@
 namespace SupportBank;
 class Account
-{    public string Name { get; set; }
-    // constructor
+{
+    // Getter
+    public string Name { get; set; }
+
+    // Constructor (setter)
     public Account(string name)
     {
         Name = name;
