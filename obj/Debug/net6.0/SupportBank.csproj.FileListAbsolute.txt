@@ -13,3 +13,5 @@ C:\Training\SupportBank\obj\Debug\net6.0\refint\SupportBank.dll
 C:\Training\SupportBank\obj\Debug\net6.0\SupportBank.pdb
 C:\Training\SupportBank\obj\Debug\net6.0\SupportBank.genruntimeconfig.cache
 C:\Training\SupportBank\obj\Debug\net6.0\ref\SupportBank.dll
+C:\TRAINING\SupportBank\bin\Debug\net6.0\NLog.dll
+C:\TRAINING\SupportBank\obj\Debug\net6.0\SupportBank.csproj.CopyComplete

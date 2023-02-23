@@ -1,7 +1,9 @@
+using NLog;
 namespace SupportBank;
 
 class Bank
 {
+    private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
     public List<Transaction> Transactions;
     public List<Account> Accounts;
     // Constructor
@@ -34,12 +36,12 @@ class Bank
     public void AccountDetails(List<Transaction> Transactions, List<Account> Accounts)
     {
         Console.WriteLine($"Please provide an account name from the following list:");
-        foreach(Account acc in Accounts)
+        foreach (Account acc in Accounts)
         {
             Console.WriteLine(acc.Name);
         }
-        string name= Console.ReadLine();
-        
+        string name = Console.ReadLine();
+
         foreach (Transaction tran in Transactions)
         {
             if (tran.To.Name == name || tran.From.Name == name)

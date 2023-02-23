@@ -1,6 +1,7 @@
 namespace SupportBank;
 class Transaction
 {
+
     public DateOnly TDate { get; set; }
     public Account From { get; set; }
     public Account To { get; set; }
