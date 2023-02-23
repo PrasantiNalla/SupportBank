@@ -30,4 +30,23 @@ class Bank
             Console.WriteLine($"{person.Name} : {total}");
         }
     }
+
+    public void AccountDetails(List<Transaction> Transactions, List<Account> Accounts)
+    {
+        Console.WriteLine($"Please provide an account name from the following list:");
+        foreach(Account acc in Accounts)
+        {
+            Console.WriteLine(acc.Name);
+        }
+        string name= Console.ReadLine();
+        
+        foreach (Transaction tran in Transactions)
+        {
+            if (tran.To.Name == name || tran.From.Name == name)
+            {
+                Console.WriteLine($" From: {tran.From.Name}, To: {tran.To.Name}, Date sent: {tran.TDate}, Reference: {tran.Narrative}, Amount: {tran.Amount}");
+            }
+        }
+
+    }
 }
