@@ -7,5 +7,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="5.1.2"/>
+    <PackageReference Include="Json.Net" Version="1.0.33"/>
   </ItemGroup>
 </Project>
