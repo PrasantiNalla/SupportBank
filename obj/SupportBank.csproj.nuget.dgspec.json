@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TRAINING\\SupportBank\\SupportBank.csproj": {}
+    "C:\\Training\\SupportBank\\SupportBank.csproj": {}
   },
   "projects": {
-    "C:\\TRAINING\\SupportBank\\SupportBank.csproj": {
+    "C:\\Training\\SupportBank\\SupportBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TRAINING\\SupportBank\\SupportBank.csproj",
+        "projectUniqueName": "C:\\Training\\SupportBank\\SupportBank.csproj",
         "projectName": "SupportBank",
-        "projectPath": "C:\\TRAINING\\SupportBank\\SupportBank.csproj",
-        "packagesPath": "C:\\Users\\babdoo\\.nuget\\packages\\",
-        "outputPath": "C:\\TRAINING\\SupportBank\\obj\\",
+        "projectPath": "C:\\Training\\SupportBank\\SupportBank.csproj",
+        "packagesPath": "C:\\Users\\pranal\\.nuget\\packages\\",
+        "outputPath": "C:\\Training\\SupportBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\babdoo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pranal\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "JSON": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Json.Net": {
               "target": "Package",
               "version": "[1.0.33, )"
@@ -45,6 +49,10 @@
             "NLog": {
               "target": "Package",
               "version": "[5.1.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             }
           },
           "imports": [

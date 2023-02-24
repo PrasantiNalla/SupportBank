@@ -11,13 +11,9 @@ public class CsvReader
     public CsvReader(string path)
     {
         Logger.Info("Successfully started CsvReader");
-
-
         Path = path;
-
         // Create bank object.
         Bank bank = new Bank();
-
         // Read all data in CSV file and put into string array. 
         string[] lines = System.IO.File.ReadAllLines(path);
 
@@ -27,30 +23,32 @@ public class CsvReader
         for (int i = 1; i < lines.Length; i++)
         {
             //  Logger.Info($"Parsing line {i}.");
-             string[] columns = lines[i].Split(',');
-             try{
-                if(!Decimal.TryParse(columns[4],out decimal valueAmount)){
-                 Logger.Error($"Filling of Transactions list unsuccessful at line {i} due to a faulty amount.");
-                 continue;
+            string[] columns = lines[i].Split(',');
+            try
+            {
+                if (!Decimal.TryParse(columns[4], out decimal valueAmount))
+                {
+                    Logger.Error($"Filling of Transactions list unsuccessful at line {i} due to a faulty amount.");
+                    continue;
                 }
-                if(!DateOnly.TryParse(columns[0],out DateOnly valueDate)){
-                 Logger.Error($"Filling of Transactions list unsuccessful at line {i} due to a faulty date.");
-                 continue;
+                if (!DateOnly.TryParse(columns[0], out DateOnly valueDate))
+                {
+                    Logger.Error($"Filling of Transactions list unsuccessful at line {i} due to a faulty date.");
+                    continue;
                 }
-            // Populating data into Transactions (list of transactions in bank object).
-            Account from = new Account(columns[1]);
-            Account to = new Account(columns[2]);
-            DateOnly dateEntry = DateOnly.Parse(columns[0]);
-            string narrative = columns[3];
-            decimal amountEntry = Decimal.Parse(columns[4]);
-            bank.Transactions.Add(new Transaction(dateEntry, from, to, narrative, amountEntry));
-        }
-        catch{
-              Logger.Error($"Filling of Transactions list unsuccessful at line {i}.");
+                // Populating data into Transactions (list of transactions in bank object).
+                Account from = new Account(columns[1]);
+                Account to = new Account(columns[2]);
+                DateOnly dateEntry = DateOnly.Parse(columns[0]);
+                string narrative = columns[3];
+                decimal amountEntry = Decimal.Parse(columns[4]);
+                bank.Transactions.Add(new Transaction(dateEntry, from, to, narrative, amountEntry));
+            }
+            catch
+            {
+                Logger.Error($"Filling of Transactions list unsuccessful at line {i}.");
             }
         }
-        
-
 
 
         // Add names of users to Accounts (list of account names in bank object).

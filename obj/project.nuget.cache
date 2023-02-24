@@ -1,11 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "EuTREoryJZSApu+huy12ZDPDgKdMoyvJ3h0O/Buh0CqjGJb+rMkxE2/DICQkVtJYelrPESqFaCXiABm32FN3Qw==",
+  "dgSpecHash": "pyg/fUv+4QMaQ4/5GEB7Fr9GilB1mDIT1nEWfiU0Can8mF73uLihYDPlNIE44fjjb2r5BqnDSQoGkwobo29KBw==",
   "success": true,
-  "projectFilePath": "C:\\TRAINING\\SupportBank\\SupportBank.csproj",
+  "projectFilePath": "C:\\Training\\SupportBank\\SupportBank.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\babdoo\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
-    "C:\\Users\\babdoo\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512"
+    "C:\\Users\\pranal\\.nuget\\packages\\json\\1.0.1\\json.1.0.1.nupkg.sha512",
+    "C:\\Users\\pranal\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
+    "C:\\Users\\pranal\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\pranal\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'JSON 1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "JSON",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
