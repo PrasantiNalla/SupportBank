@@ -44,7 +44,7 @@ public class FileReader
                     // Populating data into Transactions (list of transactions in bank object).
                     Account from = new Account(columns[1]);
                     Account to = new Account(columns[2]);
-                    DateOnly dateEntry = DateOnly.Parse(columns[0]);
+                    string dateEntry = columns[0];
                     string narrative = columns[3];
                     decimal amountEntry = Decimal.Parse(columns[4]);
                     bank.Transactions.Add(new Transaction(dateEntry, from, to, narrative, amountEntry));
@@ -59,15 +59,19 @@ public class FileReader
         {
             Logger.Info("Successfully started loading .json file");
             // read .json file into a string and deserialise the object.
-            using (StreamReader r = new StreamReader(inputFile))
+            List<TransactionJson> TransactionJsonList = new List<TransactionJson>();
+            TransactionJsonList = (JsonConvert.DeserializeObject<List<TransactionJson>>(File.ReadAllText(inputFile)));
+            foreach (TransactionJson tran in TransactionJsonList)
             {
-                string json = r.ReadToEnd();
-                bank.Transactions = JsonConvert.DeserializeObject<List<Transaction>>(json);
+                string Date = tran.Date.Split("T")[0];
+                Decimal Amount = tran.Amount;
+                string Narrative = tran.Narrative;
+                Account From = new Account(tran.FromAccount);
+                Account To = new Account(tran.ToAccount);
+                bank.Transactions.Add(new Transaction(Date, From, To, Narrative, Amount));
+
             }
-            Console.WriteLine(bank.Transactions[0].TDate);
-
         }
-
         // Add names of users to Accounts (list of account names in bank object).
         foreach (Transaction name in bank.Transactions)
         {
@@ -81,17 +85,20 @@ public class FileReader
             }
         }
 
+        Console.WriteLine("Please select one of the following options: \n 1.ListAll Accounts \n 2.List Details of Specific Account");
+        string selectedinput = Console.ReadLine();
 
-        // Call method to calculate total owe and owed for all accounts.
-        bank.AllTransactions(bank.Transactions, bank.Accounts);
+        if (selectedinput == "1")
+        {
+            // Call method to calculate total owe and owed for all accounts.
+            bank.AllTransactions(bank.Transactions, bank.Accounts);
+        }
 
-
-        // Call method to list all transactions of a particular account (name).
-        bank.AccountDetails(bank.Transactions, bank.Accounts);
-
-
-
-
+        else if (selectedinput == "2")
+        {
+            // Call method to list all transactions of a particular account (name).
+            bank.AccountDetails(bank.Transactions, bank.Accounts);
+        }
 
     }
 }

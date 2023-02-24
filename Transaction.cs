@@ -2,16 +2,16 @@ namespace SupportBank;
 class Transaction
 {
     // Getters
-    public DateOnly TDate { get; set; }
+    public string Date { get; set; }
     public Account From { get; set; }
     public Account To { get; set; }
     public string Narrative { get; set; }
     public decimal Amount { get; set; }
 
     // Constructor (setters)
-    public Transaction(DateOnly tdate, Account from, Account to, string narrative, decimal amount)
+    public Transaction(string date, Account from, Account to, string narrative, decimal amount)
     {
-        TDate = tdate;
+        Date = date;
         From = from;
         To = to;
         Narrative = narrative;

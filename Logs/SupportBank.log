@@ -1110,3 +1110,84 @@
 2023-02-24 12:56:05.6923 Info - SupportBank.Bank: Successfully started Bank
 2023-02-24 12:56:05.7125 Error - SupportBank.FileReader: Filling of Transactions list unsuccessful at line 27 due to a faulty amount.
 2023-02-24 12:56:05.7125 Error - SupportBank.FileReader: Filling of Transactions list unsuccessful at line 51 due to a faulty date.
+2023-02-24 13:21:25.5081 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 13:21:25.5358 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 13:21:25.5358 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 13:21:49.2842 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 13:21:49.3108 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 13:21:49.3108 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:30:52.0734 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:30:52.0961 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:30:52.0961 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:31:16.6418 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:31:16.6647 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:31:16.6647 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:32:07.1448 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:32:07.1680 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:32:07.1680 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:38:20.1966 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:38:20.2236 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:38:20.2236 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:39:08.1786 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:39:08.2038 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:39:08.2038 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:42:24.5741 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:42:24.5961 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:42:24.5961 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:49:30.5934 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:49:30.6392 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:49:30.6392 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:50:17.6174 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:50:17.6673 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:50:17.6673 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:56:37.3077 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:56:37.3318 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:56:37.3318 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 14:56:49.9280 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 14:56:49.9722 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 14:56:49.9727 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:03:37.6638 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:03:37.7168 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:03:37.7168 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:09:32.8956 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:09:32.9438 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:09:32.9438 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:15:32.6282 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:15:32.6543 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:15:32.6543 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:16:50.2022 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:16:50.2275 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:16:50.2275 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:23:47.8481 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:23:47.8785 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:23:47.8785 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:24:16.5967 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:24:16.6253 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:24:16.6253 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:24:34.4811 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:24:34.5085 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:24:34.5085 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:25:52.7329 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:25:52.7860 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:25:52.7860 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:32:25.0857 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:32:25.1404 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:32:25.1404 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:34:38.8598 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:34:38.9027 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:34:38.9027 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:37:02.4190 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:37:02.4401 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:37:02.4401 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:37:47.7795 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:37:47.8005 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:37:47.8005 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:38:11.0118 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:38:11.0677 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:38:11.0677 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 15:43:00.2444 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 15:43:00.2657 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 15:43:00.2657 Info - SupportBank.FileReader: Successfully started loading .json file
+2023-02-24 16:00:58.4969 Info - SupportBank.FileReader: Successfully started loading .csv file
+2023-02-24 16:00:58.5199 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 16:00:58.5199 Info - SupportBank.FileReader: Successfully started loading .json file

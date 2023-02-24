@@ -53,7 +53,7 @@ class Bank
         {
             if (tran.To.Name == name || tran.From.Name == name)
             {
-                Console.WriteLine($" From: {tran.From.Name}, To: {tran.To.Name}, Date sent: {tran.TDate}, Reference: {tran.Narrative}, Amount: {tran.Amount}");
+                Console.WriteLine($" From: {tran.From.Name}, To: {tran.To.Name}, Date sent: {tran.Date}, Reference: {tran.Narrative}, Amount: {tran.Amount}");
             }
         }
 
