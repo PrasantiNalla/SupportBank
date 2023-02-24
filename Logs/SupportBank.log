@@ -1081,3 +1081,32 @@
 2023-02-24 12:26:17.9796 Info - SupportBank.Bank: Successfully started Bank
 2023-02-24 12:26:48.1496 Info - SupportBank.JsonReader: Successfully started JsonReader
 2023-02-24 12:26:48.1769 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:43:11.9491 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:43:11.9751 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:43:11.9751 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:44:19.9225 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:44:19.9514 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:44:28.9363 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:44:28.9620 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:44:28.9620 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:46:00.8587 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:46:00.8844 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:46:00.8844 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:47:29.3880 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:47:29.4132 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:47:29.4132 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:53:39.9105 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:53:39.9356 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:53:39.9356 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:53:51.3735 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:53:51.4000 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:53:51.4000 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:54:14.2433 Info - SupportBank.CsvReader: Successfully started CsvReader
+2023-02-24 12:54:14.2695 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:54:14.2695 Info - SupportBank.CsvReader: Successfully started JsonReader
+2023-02-24 12:55:57.7415 Info - SupportBank.FileReader: Successfully started CsvReader
+2023-02-24 12:55:57.7639 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:56:05.6687 Info - SupportBank.FileReader: Successfully started CsvReader
+2023-02-24 12:56:05.6923 Info - SupportBank.Bank: Successfully started Bank
+2023-02-24 12:56:05.7125 Error - SupportBank.FileReader: Filling of Transactions list unsuccessful at line 27 due to a faulty amount.
+2023-02-24 12:56:05.7125 Error - SupportBank.FileReader: Filling of Transactions list unsuccessful at line 51 due to a faulty date.
