@@ -151,19 +151,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pranal\\.nuget\\packages\\": {}
+    "C:\\Users\\babdoo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Training\\SupportBank\\SupportBank.csproj",
+      "projectUniqueName": "C:\\TRAINING\\SupportBank\\SupportBank.csproj",
       "projectName": "SupportBank",
-      "projectPath": "C:\\Training\\SupportBank\\SupportBank.csproj",
-      "packagesPath": "C:\\Users\\pranal\\.nuget\\packages\\",
-      "outputPath": "C:\\Training\\SupportBank\\obj\\",
+      "projectPath": "C:\\TRAINING\\SupportBank\\SupportBank.csproj",
+      "packagesPath": "C:\\Users\\babdoo\\.nuget\\packages\\",
+      "outputPath": "C:\\TRAINING\\SupportBank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pranal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\babdoo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
